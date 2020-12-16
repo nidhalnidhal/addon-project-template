@@ -31,15 +31,15 @@
       <artifactId>commons-api</artifactId>
       <version>${platform.version}</version>
     </dependency>
-      <dependency>
+     <!--  <dependency>
           <groupId>org.exoplatform.social</groupId>
           <artifactId>social-component-core-jpa</artifactId>
           <version>5.0.0-RC13</version>
-      </dependency>
+      </dependency> -->
       <dependency>
           <groupId>org.exoplatform.social</groupId>
-          <artifactId>social-component-core-jpa</artifactId>
-          <version>5.0.0-RC13</version>
+          <artifactId>social-component-core</artifactId>
+          <version>6.0.0</version>
       </dependency>
   </dependencies>
   <name>Training Exercise - Services</name>
