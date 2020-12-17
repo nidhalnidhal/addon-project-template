@@ -1,5 +1,5 @@
 package org.exoplatform.addons.services;
-
+package org.exoplatform
 import org.exoplatform.container.ExoContainerContext;
 import org.exoplatform.container.PortalContainer;
 import org.picocontainer.Startable;
@@ -14,5 +14,5 @@ public class App {
 	    MyNewStartableService mynewStartableService = (MyNewStartableService) portalContainer.getComponentInstance(MyNewStartableService.class);
 	    myNewStartableService.start();
 	}
-
+      
 }

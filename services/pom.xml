@@ -41,9 +41,47 @@
           <artifactId>social-component-core</artifactId>
           <version>6.0.0</version>
       </dependency>
-  </dependencies>
+      
+    <dependency>
+        <groupId>org.junit.jupiter</groupId>
+        <artifactId>junit-jupiter-api</artifactId>
+        <version>5.4.2</version>
+        <scope>test</scope>
+    </dependency>
+    <dependency>
+        <groupId>org.junit.jupiter</groupId>
+        <artifactId>junit-jupiter-engine</artifactId>
+        <version>5.4.2</version>
+        <scope>test</scope>
+    </dependency>
+    <dependency>
+    <groupId>ch.qos.logback</groupId>
+    <artifactId>logback-classic</artifactId>
+    <version>1.2.3</version>
+    </dependency>
+    <dependency>
+    <groupId>io.github.hakky54</groupId>
+    <artifactId>logcaptor</artifactId>
+    <version>2.0.0</version>
+    <scope>test</scope>
+</dependency>
+    
+   <dependency>
+    <groupId>org.assertj</groupId>
+    <artifactId>assertj-core</artifactId>
+    <version>3.15.0</version>
+    <scope>test</scope>
+    </dependency>
+</dependencies>
   <name>Training Exercise - Services</name>
   <build>
     <finalName>training-exercises-services</finalName>
+    <plugins>
+        <plugin>
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-surefire-plugin</artifactId>
+            <version>2.22.1</version>
+        </plugin>
+    </plugins>
   </build>
 </project>

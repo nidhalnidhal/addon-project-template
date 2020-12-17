@@ -14,7 +14,8 @@ public class MyNewService {
 		     LOG.info("##################### Simple New service started successfully !!");
 		  }
 
-		  public void call() {
+		  public int  call() {
 		    LOG.info("######################  call function invoked !!");
+		    return(1);
 		  }
 }

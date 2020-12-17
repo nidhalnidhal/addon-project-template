@@ -18,7 +18,7 @@ import org.exoplatform.container.ExoContainerContext;
 	   */
 	  private static final Log LOG = ExoLogger.getExoLogger(MyNewStartableService.class);
 
-	  @Override
+	  
 	  public void start() {
 	    LOG.info("&&&&&&&&&&&& My  Brand NewStartable service started !");
 	    PortalContainer portalContainer = (PortalContainer) ExoContainerContext.getCurrentContainer();
@@ -28,9 +28,10 @@ import org.exoplatform.container.ExoContainerContext;
 	    myNewService.call();
 	  }
 
-	  @Override
+	 
 	  public void stop() {
-	    LOG.info("&&&&&&&&&&&& My Brand New Startable service stopped !");
+		  LOG.info("&&&&&&&&&&&& My Brand New Startable service stopped !");
 	  }
+	  
 
 }
