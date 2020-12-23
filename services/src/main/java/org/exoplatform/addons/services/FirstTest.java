@@ -54,15 +54,15 @@ public class FirstTest {
         assertEquals(1, service.ListAll());
     }
     @Test
-    public void ListingActivitiesByTitleTest(String title) throws RepositoryException {
+    public void ListingActivitiesByTitleTest() throws RepositoryException {
         FavouriteActivityDao dao = new FavouriteActivityDao();
-        List<FavoriteActivity> list = dao.getActivitiesByTitle(title);
+        List<FavoriteActivity> list = dao.getActivitiesByTitle("sport");
         assertFalse(list.isEmpty());
     }
     @Test
-    public void ListingActivitiesByDateTest(Calendar c) throws RepositoryException {
+    public void ListingActivitiesByDateTest() throws RepositoryException {
         FavouriteActivityDao dao = new FavouriteActivityDao();
-
+        Calendar c = new Calendar();
         List<FavoriteActivity> list = dao.getActivitiesByDate(c);
         assertFalse(list.isEmpty());
     }

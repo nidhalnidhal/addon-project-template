@@ -13,5 +13,5 @@ public class App {
 	    MyNewStartableService mynewStartableService = (MyNewStartableService) portalContainer.getComponentInstance(MyNewStartableService.class);
 	    mynewStartableService.start();
 	}
-      
+
 }

@@ -13,7 +13,7 @@ import java.util.Calendar;
 import java.util.Date;
 import java.util.List;
 
-public class FavouriteActivityDao  extends GenericDAOJPAImpl {
+public class FavouriteActivityDao  extends GenericDAOJPAImpl<FavoriteActivity, Long> {
 
 
     public List<FavoriteActivity> getActivitiesOwnedBy(ActivityEntity entity) {

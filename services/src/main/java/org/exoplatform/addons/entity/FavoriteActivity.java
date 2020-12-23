@@ -53,4 +53,14 @@ public class FavoriteActivity {
     public void setFavoriteDate(Calendar favoriteDate) {
         this.FavoriteDate = favoriteDate;
     }
+
+    public FavoriteActivity(Long id, String activityTitle, ActivityEntity targetActivity, Calendar favoriteDate) {
+        this.id = id;
+        this.ActivityTitle = activityTitle;
+        this.TargetActivity = targetActivity;
+        this.FavoriteDate = favoriteDate;
+    }
+
+    public FavoriteActivity() {
+    }
 }

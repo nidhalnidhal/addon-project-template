@@ -59,8 +59,10 @@ public class MyService {
     ExoContainer myContainer = ExoContainerContext.getCurrentContainer();
     RepositoryService repositoryService = (RepositoryService) myContainer. getComponentInstanceOfType(RepositoryService.class);
     Repository repository =   repositoryService.getCurrentRepository();
+
     Session jcrSession = ((ManageableRepository) repository).getSystemSession("collaboration");
-    Node root = jcrSession.getRootNode();
+
+     Node root = jcrSession.getRootNode();
     QueryManager qm = jcrSession.getWorkspace().getQueryManager();
     Query q = qm.createQuery("select * from exo:FavoriteActivity", Query.SQL);
     NodeIterator ni = q.execute().getNodes();
