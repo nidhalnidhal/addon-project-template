@@ -9,7 +9,6 @@ import java.util.Calendar;
 @Entity
 @ExoEntity
 @Table(name = "ADDON_FAVORITE_ACTIVITY")
-
 public class FavoriteActivity {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
@@ -17,6 +16,7 @@ public class FavoriteActivity {
     private Long id;
     private String ActivityTitle;
     @ManyToOne
+    @JoinColumn(name = "TargetActivity")
     private ActivityEntity TargetActivity;
     @Temporal(value = TemporalType.TIMESTAMP)
     @Column(name = "FAVOURITE_DATE")

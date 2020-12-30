@@ -25,5 +25,11 @@
     <component>
         <type>org.exoplatform.commons.persistence.impl.EntityManagerService</type>
     </component>
+    <component>
+        <type>exo.rest.service.RestUserService</type>
+    </component>
+    <component>
+        <type>org.exoplatform.addons.Dao.FavouriteActivityDao</type>
+    </component>
 </configuration>
 
