@@ -29,6 +29,7 @@
   <artifactId>training-exercises-webapp</artifactId>
   <packaging>war</packaging>
   <name>Training Exercises - Webapp</name>
+
   <build>
     <finalName>training-exercises-extension</finalName>
   </build>

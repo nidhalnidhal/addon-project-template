@@ -1,0 +1,10 @@
+<locales-config>
+    ...
+    <locale-config>
+        <locale>ve</locale>
+        <output-encoding>UTF-8</output-encoding>
+        <input-encoding>UTF-8</input-encoding>
+        <description>Venda</description>
+    </locale-config>
+    ...
+</locales-config>

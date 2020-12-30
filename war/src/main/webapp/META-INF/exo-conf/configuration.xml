@@ -33,7 +33,7 @@
     <set-method>registerChangePlugin</set-method>
     <!-- The full qualified name of the PortalContainerDefinitionChangePlugin -->
     <type>org.exoplatform.container.definition.PortalContainerDefinitionChangePlugin</type>
-    <priority>200</priority>
+    <priority>300</priority>
     <init-params>
       <value-param>
         <name>apply.default</name>
@@ -46,7 +46,7 @@
           <field name="dependencies">
             <collection type="java.util.ArrayList">
               <value>
-                <string>training-exercises-extension</string>
+                <string>training-exercices-parent</string>
               </value>
             </collection>
           </field>
