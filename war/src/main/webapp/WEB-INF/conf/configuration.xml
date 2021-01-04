@@ -30,4 +30,8 @@
 		<key>org.exoplatform.addons.services.MyService</key>
 		<type>org.exoplatform.addons.services.MyService</type>
 	</component>
+	<component>
+		<key>org.exoplatform.addons.services.MailingService</key>
+		<type>org.exoplatform.addons.services.MailingService</type>
+	</component>
 </configuration>
