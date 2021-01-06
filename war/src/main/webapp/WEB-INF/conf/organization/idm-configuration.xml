@@ -296,15 +296,7 @@
             <description>update last login time for user</description>
         </component-plugin>
     </external-component-plugins>
-    <external-component-plugins>
-        <target-component>org.exoplatform.services.listener.ListenerService</target-component>
-        <component-plugin>
-            <name>exo.core.Sendmail</name>
-            <set-method>Sendmail</set-method>
-            <type>org.exoplatform.addons.listners.AccountCreationlistner</type>
-            <description>Sendmail after Account Creation</description>
-        </component-plugin>
-    </external-component-plugins>
+
 
     <external-component-plugins>
         <target-component>org.exoplatform.services.cache.CacheService</target-component>
